@@ -1,0 +1,115 @@
+body {
+  background-color: gray;
+  margin: 0;
+  overflow:hidden;
+  height: 100%;
+}
+#head {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border: 4px solid black;
+  overflow:hidden;
+  font-size: 35px;
+}
+#body1 {
+  background-color: rgb(200, 200, 200);
+  margin-top: 100px; /* Push it below the header */
+  padding: 20px;
+  height: calc(100vh - 200px); /* Adjust height dynamically */
+  border: 2px solid black;
+  overflow:auto;
+  
+}
+#footer {
+  background-color: rgb(50, 50, 50);
+  height: 100px;
+  width: 100%;
+   /* Allow it to stack below the body */
+  bottom: 0;
+  border: 2px solid black;
+  overflow:hidden;
+  
+}
+#darkbutton{
+  background-color: rgba(0, 0, 0, 0.435);
+  color:rgba(255, 255, 255, 0.446);
+}
+#darkbutton:hover{
+  background-color: rgb(0, 0, 0);
+  color:white;
+}
+#lightbutton{
+  background-color: rgba(255, 255, 255, 0.391);
+  color : black;
+}
+#lightbutton:hover{
+  background-color: rgb(255, 255, 255);
+  color : black;
+}
+#nature{
+  background-color: rgb(46, 255, 112);
+  color : rgb(3, 3, 3);
+}
+#nature:hover{
+  background-color: rgb(0, 0, 0);
+  color : rgb(94, 255, 120);
+}
+#blue{
+  background-color: rgb(0, 255, 217);
+  color : rgb(0, 0, 0);
+}
+#blue:hover{
+  background-color: rgb(0, 26, 255);
+  color : rgb(0, 247, 255);
+}
+.button4 {
+  border-radius: 12px;
+  height:70px;
+  font-size: 40px;
+  background-color: rgb(255, 255, 255);
+  color:rgb(255, 0, 0);
+  font-style:italic;
+}
+.button4:hover {
+  border-radius: 12px;
+  height:70px;
+  font-size: 40px;
+  background-color: rgb(255, 0, 0);
+  color:rgb(253, 253, 253);
+}
+.button3 {
+  border-radius: 12px;
+  height:70px;
+  font-size: 40px;
+  background-color: rgb(255, 255, 255);
+  color:rgba(3, 79, 14, 0.965);
+  font-style:italic;
+}
+.button3:hover {
+  border-radius: 12px;
+  height:70px;
+  font-size: 40px;
+  background-color: rgb(0, 126, 48);
+  color:rgb(253, 253, 253);
+}
+#audioPlayer {
+  width: 100%;   /* Make the audio player span the full width of its container */
+  background-color: rgba(35, 111, 161, 0.438);
+  height: 30px;  
+}
+#audioPlayer::-webkit-media-controls-panel {
+  background-color: rgba(40, 117, 138, 0.599); /* Red background for the player controls in webkit browsers */
+}
+iframe {
+  border-radius: 10px; /* Round corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+  display: block; /* Ensure it doesn't have unwanted margins */
+  margin: 0 auto; /* Center the iframe */
+}

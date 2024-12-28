@@ -1,0 +1,24 @@
+body {
+  background-color: gray;
+  margin: 0; /* Remove default margin for the body */
+}
+
+
+
+#button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#button:hover {
+  background-color: rgb(255, 0, 174);
+  color: rgb(0, 0, 0);
+}
+
+#gif {
+  display: none;
+  width: 300px;
+  height: auto;
+  opacity: 0;
+  transition: opacity 1s ease;
+}

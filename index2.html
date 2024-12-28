@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="script2.js"></script>
+  <link rel="stylesheet" href="s2.css">
+
+</head>
+
+<body>
+  <div id="head">
+    <h2>Bun venit</h2>
+  </div>
+  <div id="body1">
+    <a href="https://www.cancan.ro/stiri" target="_blank">
+      <button class="button button4">Cancan</button>
+    </a><br><br>
+    <a href="https://www.herzensbildung.online" target="_blank">
+      <button class="button button3">Herzensbildung</button>
+    </a><br><br>
+    <a href="https://www.youtube.com/@TRINITASTVoficial/videos" target="_blank">
+      <button class="button button4">Trinitas TV</button>
+    </a><br><br>
+    <a href="https://www.youtube.com" target="_blank">
+      <button class="button button4">
+        <img src="/download.png" alt="Button Image" style="width: 100px; height: 50px; vertical-align: middle;">
+
+      </button></a>
+    <br><br>
+    <a href="https://www.bucurestifm.ro/asculta-live/"><button class="button button4">Radio FM</button></a>
+    <br><br>
+
+    <button class="button button3" onclick="randomLink()">Basteln</button>
+
+    <br><br>
+
+
+    <!-- Button to play a random song -->
+    <button class="button button3" onclick="playRandomSong()">Play Music</button>
+
+    
+
+
+
+
+  </div>
+  <div id="footer"><button onclick="dark()" id="darkbutton">Dark Mode</button>
+    <button onclick="light()" id="lightbutton">Light Mode</button>
+    <button onclick="nature()" id="nature">Nature</button>
+    <button onclick="blue()" id="blue">Blue</button>
+    <audio id="audioPlayer" controls>
+      Your browser does not support the audio element.
+    </audio>
+
+  </div>
+
+</body>
+
+</html>
